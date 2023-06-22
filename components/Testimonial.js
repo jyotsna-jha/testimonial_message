@@ -31,9 +31,11 @@ const Testimonial = () => {
             </p>
             <i className={`${styles.quoteIcon} bx bxs-quote-alt-left`}></i>
             <div className={styles.details}>
+                {/*
               <span className={styles.name}>
                 - Jyotsna Jha, Engineering Student
               </span>
+  */}
             </div>
           </SwiperSlide>
           <SwiperSlide className={styles.slide}>
