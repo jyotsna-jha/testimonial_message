@@ -50,7 +50,7 @@ const Testimonial = () => {
             </p>
             <i className={`${styles.quoteIcon} bx bxs-quote-alt-left`}></i>
             <div className={styles.details}>
-              <span className={styles.name}>Marnie Lotter</span>
+              
             </div>
           </SwiperSlide>
           <SwiperSlide className={styles.slide}>
@@ -65,7 +65,7 @@ const Testimonial = () => {
             </p>
             <i className={`${styles.quoteIcon} bx bxs-quote-alt-left`}></i>
             <div className={styles.details}>
-              <span className={styles.name}>Marnie Lotter</span>
+              
             </div>
           </SwiperSlide>
         </Swiper>
