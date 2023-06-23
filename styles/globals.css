@@ -1,20 +1,13 @@
 * {
   padding: 0px;
   margin: 0px;
-  font-family: "DM Sans", sans-serif;
+  font-family: "poppins", sans-serif;
 }
 :root {
-  --primary-color: #ffffff;
-  /* --primary-color: #100054; */
-  /* --text-color: #444aca; */
-  --text-color: #000000;
-  /* --text-color: #ffffff; */
-  --secondary-color: #444aca;
-
-  /* --secondary-color: #894a00; */
-
-
-  --bg-color: #132F70;
-  --front-color: rgb(248, 168, 21);
-  --topics: rgb(14, 14, 173);
+  --text-color: #333;
+  --secondary-color: #ffffff;
+  --primary-color: #444aca;
+  --bg-color: darkblue;
+  --font-color: #ffffff;
+  --brown: rgb(146, 143, 143);
 }

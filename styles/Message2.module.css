@@ -1,94 +1,144 @@
-.section {
-  height: 100vh;
+.wrapper {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  background: var(--primary-color);
+  padding: 20px;
+  background-color: white;
 }
 
 .container {
-  width: 100%;
-  max-width: 1160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 20px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2.5rem;
-  align-items: center;
+.imageContainer {
+  flex: 0 0 auto;
+  margin-bottom: 40px; /* Increased space between image container and text */
+}
+
+.image {
+  display: block;
+  border-radius: 5px;
+}
+
+.textBox {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
-.left img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  object-fit: cover;
-  max-height: 620px;
+.textContainer {
+  text-align: left;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  hyphens: auto;
+  word-break: break-word;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .imageContainer {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  background-color: #f9fafc; /* Updated card background color */
+  color: #333333;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
-.left img:hover {
-  transform: scale(1.1);
+.card:last-child {
+  margin-right: 0;
 }
 
-.right > * {
-  margin-bottom: 1rem;
-  color: black;
+.card:hover {
+  transform: translateY(-5px);
 }
 
-.right h4 {
-  font-weight: 500;
-  background: var(--color);
-  display: inline-block;
-  padding: 3px 10px;
+.icon {
+  font-size: 24px; /* Increased icon size */
+  margin-right: 12px; /* Increased margin for better spacing */
+  color: var(--primary-color); /* Updated icon color */
+  transition: transform 0.3s ease;
+}
+
+.card:hover .icon {
+  transform: rotate(360deg); /* Adds a cool rotation effect on hover */
+}
+
+.cardContent {
   font-size: 14px;
-  border-radius: 4px;
-  letter-spacing: 0.05em;
-  word-wrap: break-word;
 }
 
-.right h1 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  word-wrap: break-word;
-}
-
-.right p {
-  text-align: justify;
-  font-size: 14px;
-  letter-spacing: 0.02em;
-  word-wrap: break-word;
-  margin-bottom: 1rem;
-}
-
-@media (max-width: 768px) {
-  .grid {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-  }
-
+@media (max-width: 480px) {
   .container {
-    padding: 0 10px;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .right h1 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+  .imageContainer {
+    margin-right: 0;
+    margin-bottom: 20px;
   }
 
-  .right p {
-    font-size: 12px;
-    margin-bottom: 1rem;
+  .heading1 {
+    margin-bottom: 10px;
   }
 
-  .left img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
-    object-fit: contain;
-    max-height: 300px;
+  .textBox {
+    padding: 0 10px; /* Add padding to the text container */
+  }
+
+  .cardsContainer {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: -10px; /* Equal margin on both sides */
+    margin-right: -10px; /* Equal margin on both sides */
+  }
+
+  .card {
+    margin-right: 10px;
+    margin-bottom: 10px;
   }
 }

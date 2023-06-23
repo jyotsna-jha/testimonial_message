@@ -1,3 +1,3049 @@
+#4c75f2
+ 
+Facebook
+ 
+</div>
+ 
+</div>
+ 
+ </Link>
+ 
+<div className={styles.socialm}>
+ 
+.socialm{
+    color:white;
+  }
+ 
+</div>
+ 
+/path/to/page
+ 
+ Facebook: <Link ></Link>
+ 
+<link></
+ 
+info@tcioe.edu.np
+ 
+<li>
+                <FaFacebook />
+                <a href="https://entrance.ioe.edu.np/">
+                    Thapathali Campus
+                  </a>
+              </li>
+ 
+Facebook: 
+                <a href="https://www.facebook.com/search/top?q=thapathali%20c"
+                >
+                    <div className={styles.}></div>
+                Thapathali Campus
+          
+                  </a>
+ 
+ <a href="https://www.facebook.com/search/top?q=thapathali%20c"
+                >
+                    <div className={styles.}></div>
+                Thapathali Campus
+          
+ 
+ style={color:white}>
+ 
+  <style
+ 
+</style>
+ 
+https://examform.ioe.edu.np/
+ 
+ IOE, Examination Control Division
+ 
+ info@tcioe.edu.np
+ 
+<li>
+                  <a href="https://examform.ioe.edu.np/">
+                    IOE, Examination Control Division
+                  </a>
+                </li>
+ 
+<li>
+                <a href="https://www.facebook.com/thapathalicampus">
+                  <FaFacebook /> Facebook
+                </a>
+              </li>
+ 
+</a><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="icon">
+            <FaFacebook />
+ 
+<a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="icon">
+            <FaFacebook />
+ 
+<li>
+                <FaFacebook />
+                Facebook: info@tcioe.edu.np
+              </li>
+ 
+              <li>
+  
+</li>
+ 
+import React from "react";
+import styles from "../styles/Footer1.module.css";
+import logostyles from "../styles/Logo.module.css";
+import { FaMapMarker, FaPhone, FaEnvelope, FaFacebook } from "react-icons/fa";
+import Logo from "./Logo";
+import logo from "../public/logo.svg";
+import Link from "next/link";
+import Image from "next/image";
+import Link from "next/link";
+
+const Footer = () => {
+  return (
+    <footer className={styles.footer}>
+      <div className={styles.container}>
+        <div className={styles.left}>
+          <section className={logostyles.logo_section}>
+            <Link href="/" className={logostyles.logo_section_link}>
+              <div className={logostyles.logo_section_logo}>
+                <Image
+                  src={logo}
+                  alt="Thapathali Campus Logo"
+                  height={80}
+                  quality={100}
+                />
+              </div>
+              <div className={logostyles.logo_section_text}>
+                <span
+                  className={logostyles.logo_section_text1}
+                  style={{ color: "white" }}
+                >
+                  Tribhuwan University
+                </span>
+                <span
+                  className={logostyles.logo_section_text2}
+                  style={{ color: "white" }}
+                >
+                  Institute of Engineering
+                </span>
+                <span
+                  className={logostyles.logo_section_text3}
+                  style={{ color: "white" }}
+                >
+                  Thapathali Campus
+                </span>
+              </div>
+            </Link>
+          </section>
+          <div className={styles.contact}>
+            <ul>
+              <li>
+                <FaMapMarker />
+                Location: Thapathali, Kathmandu
+              </li>
+              <li>
+                <FaPhone />
+                Call: +977-01-4246307
+              </li>
+              <li>
+                <FaEnvelope />
+                Email: info@tcioe.edu.np
+              </li>
+              <li>
+  
+</li>
+              
+              
+            </ul>
+          </div>
+        </div>
+        <div className={styles.center}>
+          <div className={styles.links}>
+            <div className={styles.column}>
+              <h2>Quick Links</h2>
+              <ul>
+                <li>
+                  <a href="https://examform.ioe.edu.np/">
+                    IOE, Examination Control Division
+                  </a>
+                </li>
+                <li>
+                  <a href="https://entrance.ioe.edu.np/">
+                    IOE, Entrance Examination Board
+                  </a>
+                </li>
+                <li>
+                  <a href="https://library.tcioe.edu.np/">
+                    Thapathali Campus, Library
+                  </a>
+                </li>
+                <li>
+                  <a href="https://emis.tcioe.edu.np/">
+                    Thapathali Campus, Admission
+                  </a>
+                </li>
+                <li>
+                  <a href="https://journal.tcioe.edu.np/">
+                    Thapathali Campus, Journal
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className={styles.column}>
+              <h2>Important Links</h2>
+              <ul>
+                <li>
+                  <a href="https://ioe.edu.np/">Institute Of Engineering</a>
+                </li>
+                <li>
+                  <a href="https://pcampus.edu.np/">Pulchowk Campus</a>
+                </li>
+                <li>
+                  <a href="https://www.ioepas.edu.np/">Paschimanchal Campus</a>
+                </li>
+                <li>
+                  <a href="https://www.ioecc.edu.np/">
+                    Chitwan Engineering Campus
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.ioepc.edu.np/">Purwanchal Campus</a>
+                </li>
+                <li>
+                  <a href="https://moest.gov.np/">Ministry Of Education</a>
+                </li>
+              </ul>
+            </div>
+            <div className={styles.column}>
+              <h2>Explore</h2>
+              <ul>
+                <li>
+                  <a href="#">News</a>
+                </li>
+                <li>
+                  <a href="#">Events</a>
+                </li>
+                <li>
+                  <a href="#">Research</a>
+                </li>
+
+                <li>
+                  <a href="#">Facilities</a>
+                </li>
+                <li>
+                  <a href="#">Departments</a>
+                </li>
+                <li>
+                  <a href="#">Faculty</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr className={styles.line} />
+      <div className={styles.copyRight}>
+        <p className={styles.animation}>
+          &copy; {new Date().getFullYear()} Thapathali Campus
+        </p>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
+ 
+<Link to="info@tcioe.edu.np">
+    <FaEnvelope /> Email: info@tcioe.edu.np
+  </Link>
+ 
+mailto:info@tcioe.edu.np
+ 
+<li>
+                <FaEnvelope />
+                Email: info@tcioe.edu.np
+              </li>
+ 
+<li>
+                <FaFacebook />
+                
+                Email: https://www.facebook.com/profile.php?id=100090608649691
+              </li>
+ 
+info@tcioe.edu.np
+ 
+<li>
+                <Fa/>
+                Email: info@tcioe.edu.np
+              </li>
+ 
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "DM Sans", sans-serif;
+}
+:root {
+  --primary-color: #ffffff;
+  /* --primary-color: #100054; */
+  /* --text-color: #444aca; */
+  --text-color: #000000;
+  /* --text-color: #ffffff; */
+  --secondary-color: #444aca;
+
+  /* --secondary-color: #894a00; */
+
+
+  --bg-color: #132F70;
+  --front-color: rgb(248, 168, 21);
+  --topics: rgb(14, 14, 173);
+}
+
+ 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.imageContainer {
+  flex: 0 0 auto;
+  margin-bottom: 40px; /* Increased space between image container and text */
+}
+
+.image {
+  display: block;
+  border-radius: 5px;
+}
+
+.textBox {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textContainer {
+  text-align: left;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  hyphens: auto;
+  word-break: break-word;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .imageContainer {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  background-color: #f9fafc; /* Updated card background color */
+  color: #333333;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 24px; /* Increased icon size */
+  margin-right: 12px; /* Increased margin for better spacing */
+  color: #4c75f2; /* Updated icon color */
+  transition: transform 0.3s ease;
+}
+
+.card:hover .icon {
+  transform: rotate(360deg); /* Adds a cool rotation effect on hover */
+}
+
+.cardContent {
+  font-size: 14px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imageContainer {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .heading1 {
+    margin-bottom: 10px;
+  }
+
+  .textBox {
+    padding: 0 10px; /* Add padding to the text container */
+  }
+
+  .cardsContainer {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: -10px; /* Equal margin on both sides */
+    margin-right: -10px; /* Equal margin on both sides */
+  }
+
+  .card {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+ 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.imageContainer {
+  flex: 0 0 auto;
+  margin-bottom: 40px; /* Increased space between image container and text */
+}
+
+.image {
+  display: block;
+  border-radius: 5px;
+}
+
+.textBox {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textContainer {
+  text-align: left;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  hyphens: auto;
+  word-break: break-word;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .imageContainer {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  background-color: #dfe4ea;
+  color: #333333;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.cardContent {
+  font-size: 14px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imageContainer {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .heading1 {
+    margin-bottom: 10px;
+  }
+
+  .textBox {
+    padding: 0 10px; /* Add padding to the text container */
+  }
+
+  .cardsContainer {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: -10px; /* Equal margin on both sides */
+    margin-right: -10px; /* Equal margin on both sides */
+  }
+
+  .card {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+ 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color:white;
+}
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+ 
+  
+}
+
+.imageContainer {
+  flex: 0 0 auto;
+  margin-bottom: 40px; /* Increased space between image container and text */
+}
+
+.image {
+  display: block;
+  border-radius: 5px;
+}
+
+.textBox {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textContainer {
+  text-align: left;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom:15px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  hyphens: auto;
+  word-break: break-word; 
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .imageContainer {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  background-color: #dfe4ea;
+  color: #333333;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.cardContent {
+  font-size: 14px;
+}
+
+
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imageContainer {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .heading1 {
+    margin-bottom: 10px;
+  }
+
+  .textBox {
+    padding: 0 10px; /* Add padding to the text container */
+  }
+
+  .cardsContainer {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .card {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+ 
+Thapathali Campus, located at the center of Kathmandu city, was
+              established in 2023 B.S. (1967 AD) to develop middle-level
+              manpower in the field of mechanical and automobile engineering. It
+              is one of the constituent campuses of the Institute of Engineering
+              under Tribhuvan University, which has upgraded its programs to
+              bachelor and master's level over time. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est laborum.Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est laborum.Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est laborum.
+ 
+#f5f5f5
+ 
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ced6e0;
+  color: #4c75f2;
+  border-radius: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #4c75f2;
+  color: #ced6e0;
+}
+ 
+#ced6e0
+ 
+#ffffff
+ 
+#ffffff
+ 
+heading {
+  font-size: 24px;
+  margin-bottom: 25px;
+  position: relative;
+  display: inline-block; /* Ensure inline display for the animation */
+}
+
+.heading::first-word {
+  position: relative;
+  display: inline-block;
+}
+
+.heading::first-word::after {
+  content: "";
+  position: absolute;
+  bottom: -5px; /* Adjust the distance of the underline from the text */
+  left: 0;
+  width: 100%;
+  height: 2px; /* Set the thickness of the underline */
+  background-color: #4c75f2; /* Set the color of the underline */
+  transform: scaleX(0); /* Initially hide the underline */
+  transition: transform 0.3s ease; /* Add transition for smooth animation */
+}
+
+.heading::first-word:hover::after {
+  transform: scaleX(1); /* Show the underline on hover */
+}
+
+ 
+.heading {
+  font-size: 24px;
+  margin-bottom: 25px;
+  position: relative;
+  display: inline-block; /* Ensure inline display for the animation */
+}
+
+.heading::first-word {
+  position: relative;
+  display: inline-block;
+}
+
+.heading::first-word::after {
+  content: "";
+  position: absolute;
+  bottom: -5px; /* Adjust the distance of the underline from the text */
+  left: 0;
+  width: 100%;
+  height: 2px; /* Set the thickness of the underline */
+  background-color: #4c75f2; /* Set the color of the underline */
+  transform: scaleX(0); /* Initially hide the underline */
+  transition: transform 0.3s ease; /* Add transition for smooth animation */
+}
+
+.heading::first-word:hover::after {
+  transform: scaleX(1); /* Show the underline on hover */
+}
+
+ 
+.heading {
+  font-size: 24px;
+  margin-bottom:25px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  hyphens: auto;
+  word-break: break-word; 
+}
+
+ 
+.heading {
+  font-size: 24px;
+  margin-bottom:25px;
+}
+ 
+.heading1 {
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+ 
+ background-color:#dfe6e9;
+ 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.heading1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.imageContainer {
+  flex: 0 0 auto;
+  margin-bottom: 40px; /* Increased space between image container and text */
+}
+
+.image {
+  display: block;
+  border-radius: 5px;
+}
+
+.textBox {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textContainer {
+  text-align: left;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  hyphens: auto; /* Enable automatic hyphenation for better line breaks */
+  word-break: break-word; /* Allow long words to break and wrap */
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .imageContainer {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  background-color: #4c75f2;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.cardContent {
+  font-size: 14px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #4c75f2;
+  border-radius: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #4c75f2;
+  color: #ffffff;
+}
+
+ 
+@media (max-width: 480px) {
+  .container {
+    max-width: 100%;
+  }
+}
+ 
+.card {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  background-color: #4c75f2;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.cardContent {
+  font-size: 14px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #4c75f2;
+  border-radius: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #4c75f2;
+  color: #ffffff;
+}
+
+ 
+.card {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:last-child {
+  margin-right: 0; /* Remove margin-right for the last card */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 18px;
+  margin-right: 8px;
+  color: #333;
+}
+
+.cardContent {
+  font-size: 14px;
+  color: #555;
+}
+
+ 
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.icon {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.cardContent {
+  font-size: 14px;
+}
+
+ 
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+ 
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+ 
+.textContainer {
+  text-align: left;
+}
+ 
+heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+ 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px; /* Added padding */
+}
+
+.heading1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px; /* Added padding */
+}
+
+.imageContainer {
+  flex: 0 0 auto;
+  margin-bottom: 20px;
+}
+
+.image {
+  display: block;
+  border-radius: 5px;
+}
+
+.textBox {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textContainer {
+  text-align: left;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .imageContainer {
+    margin-right: 30px;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px; /* Added padding */
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.icon {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.cardContent {
+  font-size: 14px;
+}
+
+ 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:100px;
+}
+
+.heading1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.imageContainer {
+  flex: 0 0 auto;
+  margin-bottom: 20px; /* Increased space between image and text */
+  
+}
+
+.image {
+  display: block;
+  border-radius: 5px;
+}
+
+.textBox {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textContainer {
+  text-align: left;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .imageContainer {
+    margin-right: 30px;
+    margin-bottom: 0; /* Reset margin-bottom for larger screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    max-width: 100%; /* Adjust max-width for smaller screens */
+  }
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.icon {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.cardContent {
+  font-size: 14px;
+}
+
+
+ 
+<Testimonials/>
+ 
+<div className={styles.heading1}>
+        <h2>Message from Campus Chief</h2>
+      </div>
+ 
+import styles from "../styles/Message2.module.css";
+import Image from "next/image";
+
+import profilex from "../assets/images/Campus Chief.jpg";
+
+const MessageChief = () => {
+  return (
+    <>
+    <div className={styles.wrapper}>
+    
+   
+    <div className={styles.container}>
+      <div className={styles.imageContainer}>
+        <Image src={profilex} width={330} height={400} alt="Cool Campus Event Illustration" className={styles.image} />
+      </div>
+      <div className={styles.textBox}>
+        <div className={styles.textContainer}>
+          <h2 className={styles.heading}>Welcome to Thapathali Campus</h2>
+          <p className={styles.description}>
+            Thapathali Campus, located at the center of Kathmandu city, was established in 2023 B.S. (1967 AD) to develop middle-level manpower in the field of mechanical and automobile engineering. It is one of the constituent campuses of the Institute of Engineering under Tribhuvan University, which has upgraded its programs to bachelor and master's level over time.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </>
+  );
+};
+
+export default MessageChief;
+
+ 
+import SwiperCore, { Navigation, Pagination, Autoplay } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.min.css";
+import styles from "../styles/Testimonial.module.css";
+import Image from "next/image";
+import profileImage from "../assets/images/testimonial_image.jpg";
+import profileImage1 from "../assets/images/testimonial1_image.jpg";
+import profileImage2 from "../assets/images/testimonial2_image.jpg";
+
+SwiperCore.use([Navigation, Pagination, Autoplay]);
+
+const Testimonial = () => {
+  return (
+    <section className={styles.container}>
+      <h3 className={styles.heading}>Our Student Testimonials</h3>
+      <div className={styles.testimonial}>
+        <Swiper
+          slidesPerView={1}
+          navigation
+          pagination={{ clickable: true }}
+          autoplay={{ delay: 2000 }}
+        >
+          <SwiperSlide className={styles.slide}>
+            <div className={styles.imageWrapper}>
+              <Image src={profileImage} alt="" className={styles.image} />
+            </div>
+            <p className={styles.content}>
+              "Studying at Thapathali Campus has been a life-changing
+              experience. Knowledgeable professors, a diverse campus, and
+              endless growth opportunities have prepared me for success."
+            </p>
+            <i className={`${styles.quoteIcon} bx bxs-quote-alt-left`}></i>
+            <div className={styles.details}>
+                {/*
+              <span className={styles.name}>
+                - Jyotsna Jha, Engineering Student
+              </span>
+  */}
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.slide}>
+            <div className={styles.imageWrapper}>
+              <Image src={profileImage} alt="" className={styles.image} />
+            </div>
+            <p className={styles.content}>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+              saepe provident dolorem a quaerat quo error facere nihil deleniti
+              eligendi ipsum adipisci, fugit, architecto amet asperiores
+              doloremque deserunt eum nemo.
+            </p>
+            <i className={`${styles.quoteIcon} bx bxs-quote-alt-left`}></i>
+            <div className={styles.details}>
+              
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className={styles.slide}>
+            <div className={styles.imageWrapper}>
+              <Image src={profileImage1} alt="" className={styles.image} />
+            </div>
+            <p className={styles.content}>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam,
+              saepe provident dolorem a quaerat quo error facere nihil deleniti
+              eligendi ipsum adipisci, fugit, architecto amet asperiores
+              doloremque deserunt eum nemo.
+            </p>
+            <i className={`${styles.quoteIcon} bx bxs-quote-alt-left`}></i>
+            <div className={styles.details}>
+              
+            </div>
+          </SwiperSlide>
+        </Swiper>
+      </div>
+    </section>
+  );
+};
+
+export default Testimonial;
+
+
+
+
+ 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.imageContainer {
+  flex: 0 0 auto;
+  margin-right: 40px; /* Increased margin */
+}
+
+.image {
+  display: block;
+  border-radius: 5px;
+}
+
+.textBox {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textContainer {
+  text-align: left;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .imageContainer {
+    margin-right: 60px; /* Increased margin */
+  }
+}
+
+ 
+<div className={styles.heading1}>
+      <h2>Message from campus chief</h2>
+    </div>
+ 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.imageContainer {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+.image {
+  display: block;
+  border-radius: 5px;
+}
+
+.textBox {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textContainer {
+  text-align: left;
+}
+
+.heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .imageContainer {
+    margin-right: 30px;
+  }
+}
+
+ 
+.wrapper {
+ 
+  background-position: center;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #dfe4ea;
+  border-radius:50px;
+}
+
+.imageContainer {
+  flex: 0 0 100%;
+  max-width: 400px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.image {
+  border-radius: 10px;
+}
+
+.textBox {
+  flex: 1 1 100%;
+  max-width: 600px;
+  background-color: var(--secondary-color);
+  padding: 2rem;
+  color: var(--primary-color);
+  border-radius: 50px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  font-family: 'Dm sans';
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .imageContainer {
+    flex: 0 0 40%;
+    margin-bottom: 0;
+    padding-right: 20rem;
+  }
+
+  .textBox {
+    flex: 0 0 60%;
+  }
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Dm sans';
+  font-size: 20px;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.heading::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 4px;
+  background-color: var(--primary-color);
+  opacity: 0.7;
+}
+
+.heading1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: 'Dm sans';
+  font-size: 2rem;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  background-color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.wrapper {
+  perspective: 1000px;
+}
+
+.imageContainer, .textBox {
+  transition: transform 0.5s ease;
+  transform-style: preserve-3d;
+}
+
+.imageContainer:hover, .textBox:hover {
+  transform: translateY(-10px) scale(1.1);
+}
+
+ 
+ background-image: url('https://images.unsplash.com/photo-1511629091441-ee46146481b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmVzc29yfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');
+  background-size: cover;
+ 
+import styles from "../styles/Message2.module.css";
+import Image from "next/image";
+
+import profilex from "../assets/images/Campus Chief.jpg";
+
+const MessageChief = () => {
+  return (
+    <div className={styles.wrapper}>
+      <div className={styles.heading1}>
+        <h2>Message from Campus Chief</h2>
+      </div>
+
+      <div className={styles.container}>
+        <div className={styles.imageContainer}>
+          <div className={styles.imageFrame}>
+            <Image
+              src={profilex}
+              width={250}
+              height={250}
+              alt="Cool Campus Event Illustration"
+              className={styles.image}
+            />
+          </div>
+        </div>
+        <div className={styles.textBox}>
+          <div className={styles.textContainer}>
+            <h2 className={styles.heading}>Welcome to Thapathali Campus</h2>
+            <p className={styles.description}>
+              I invite you to explore our vibrant and inclusive learning
+              environment. With dedicated faculty, cutting-edge facilities, and
+              innovative programs, we strive to empower students for success.
+              Join us in fostering excellence, diversity, and personal growth.
+              Feel free to reach out to us with any questions or inquiries.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default MessageChief;
+
+ 
+.wrapper {
+  background-image: url('https://images.unsplash.com/photo-1511629091441-ee46146481b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmVzc29yfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');
+  background-size: cover;
+  background-position: center;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #dfe4ea;
+  border-radius:50px;
+}
+
+.imageContainer {
+  flex: 0 0 100%;
+  max-width: 400px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.image {
+  border-radius: 10px;
+}
+
+.textBox {
+  flex: 1 1 100%;
+  max-width: 600px;
+  background-color: var(--secondary-color);
+  padding: 2rem;
+  color: var(--primary-color);
+  border-radius: 50px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  font-family: 'Dm sans';
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .imageContainer {
+    flex: 0 0 40%;
+    margin-bottom: 0;
+    padding-right: 20rem;
+  }
+
+  .textBox {
+    flex: 0 0 60%;
+  }
+}
+
+.heading {
+  text-align: center;
+  font-family: 'Dm sans';
+  font-size: 20px;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+.heading::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 4px;
+  background-color: var(--primary-color);
+  opacity: 0.7;
+}
+
+.heading1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: 'Dm sans';
+  font-size: 2rem;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  background-color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.wrapper {
+  perspective: 1000px;
+}
+
+.imageContainer, .textBox {
+  transition: transform 0.5s ease;
+  transform-style: preserve-3d;
+}
+
+.imageContainer:hover, .textBox:hover {
+  transform: translateY(-10px) scale(1.1);
+}
+
+ 
+.wrapper {
+  background-color: #894a00;
+  padding: 20px;
+}
+
+.heading1 h2 {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.imageContainer {
+  flex: 0 0 auto;
+  margin-right: 30px;
+}
+
+.imageFrame {
+  border: 10px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.image {
+  display: block;
+}
+
+.textBox {
+  flex: 1 1 300px;
+}
+
+.textContainer {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.heading {
+  color: #894a00;
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.description {
+  color: #000;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .imageContainer {
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .textBox {
+    flex: 1 1 100%;
+  }
+}
+
+ 
+/* Message2.module.css */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.heading1 {
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageContainer {
+  flex: 0 0 250px;
+  margin-right: 20px;
+}
+
+.imageFrame {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+  object-fit: cover;
+}
+
+.textBox {
+  flex: 1;
+}
+
+.textContainer {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+  color: #333333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #666666;
+  line-height: 1.6;
+}
+
+ 
+import React from "react";
+import Image from "next/image";
+import profilex from "../assets/images/chief1.jpg";
+import styles from "../styles/Message2.module.css";
+import Link from "next/link";
+
+
+const MessageChief = () => {
+  return (
+    <div className={styles.wrapper}>
+      <div className={styles.heading1}>
+        <h2>Message from Campus Chief</h2>
+      </div>
+
+      <div className={styles.container}>
+        <div className={styles.imageContainer}>
+          <div className={styles.imageFrame}>
+            <Image
+              src={profilex}
+              width={250}
+              height={250}
+              alt="Cool Campus Event Illustration"
+              className={styles.image}
+            />
+          </div>
+        </div>
+        <div className={styles.textBox}>
+          <div className={styles.textContainer}>
+            <h2 className={styles.heading}>Welcome to Thapathali Campus</h2>
+            <p className={styles.description}>
+              I invite you to explore our vibrant and inclusive learning
+              environment. With dedicated faculty, cutting-edge facilities, and
+              innovative programs, we strive to empower students for success.
+              Join us in fostering excellence, diversity, and personal growth.
+              Feel free to reach out to us with any questions or inquiries.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default MessageChief;
+ 
+.about2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.left2 {
+  padding: 2rem;
+  background-color: #000033;
+  color: white;
+  max-width: 800px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 51, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.imgc {
+  flex: 0 0 40%;
+  margin-right: 2rem;
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.imgc img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.left2:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  z-index: -1;
+  animation: glowBorder 2s infinite;
+}
+
+@keyframes glowBorder {
+  0% {
+    border-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 51, 0.3);
+  }
+  50% {
+    border-color: #000033;
+    box-shadow: 0 0 20px rgba(0, 0, 51, 0.6);
+  }
+  100% {
+    border-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 51, 0.3);
+  }
+}
+
+.left2:hover {
+  transform: scale(1.05);
+}
+
+.left2 h1 {
+  margin-top: 0;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.left2 p {
+  margin: 1rem 0;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.btx {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: white;
+  color: #000033;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btx:hover {
+  background-color: white;
+  color: #000033;
+  animation: pulse 1s infinite;
+}
+
+@media (max-width: 768px) {
+  .left2 {
+    max-width: 100%;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .left2 h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .left2 p {
+    font-size: 1rem;
+    text-align: justify;
+    margin: 0.5rem 0;
+    line-height: 1.3;
+  }
+
+  .btx {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 769px) {
+.left2 p {
+letter-spacing: normal;
+}
+}
+ 
+import styles from "../styles/Message2.module.css";
+import Image from "next/image";
+
+import profilex from "../assets/images/chief1.jpg";
+
+ 
+const Message_chief = () => {
+  return (
+    <div className={styles.about2}>
+      <div className={styles.left2}>
+        <div className={styles.imgc}>
+          <Image
+          src={profilex}
+          alt="campus chief"
+          width={300}
+          height={400}
+          /
+          >
+        </div>
+        <h1 className={styles.heading}>Message From Campus chief</h1>
+        <p className={styles.paragraph}>
+          Thapathali Campus, located at the center of Kathmandu city, was
+          established in 2023 B.S.(1967 AD) to develop middle level manpower in
+          the field mechanical and automobile engineering. It is one of the
+          constituent campus of Institute of Engineering under Tribhuvan
+          University, which upgraded its programs to bachelor and master level
+          along the course of time.Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default Message_chief;
+
+ 
+.about2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.left2 {
+  padding: 2rem;
+  background-color: #000033;
+  color: white;
+  max-width: 800px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 51, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.imgc {
+  flex: 0 0 40%;
+  margin-right: 2rem;
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.imgc img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.left2:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  z-index: -1;
+  animation: glowBorder 2s infinite;
+}
+
+@keyframes glowBorder {
+  0% {
+    border-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 51, 0.3);
+  }
+  50% {
+    border-color: #000033;
+    box-shadow: 0 0 20px rgba(0, 0, 51, 0.6);
+  }
+  100% {
+    border-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 51, 0.3);
+  }
+}
+
+.left2:hover {
+  transform: scale(1.05);
+}
+
+.left2 h1 {
+  margin-top: 0;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.left2 p {
+  margin: 0.5rem 0;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.btx {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: white;
+  color: #000033;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btx:hover {
+  background-color: white;
+  color: #000033;
+  animation: pulse 1s infinite;
+}
+
+@media (max-width: 768px) {
+  .left2 {
+    max-width: 100%;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .left2 h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .left2 p {
+    font-size: 1rem;
+    text-align: justify;
+    margin: 0.3rem 0;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    word-spacing: normal;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    }
+    
+    .btx {
+    margin-top: 1rem;
+    }
+    }
+    
+    @media (min-width: 769px) {
+    .left2 p {
+    letter-spacing: normal;
+    }
+    }
+ 
+.about2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.left2 {
+  padding: 2rem;
+  background-color: #000033;
+  color: white;
+  max-width: 800px;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 51, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.left2:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  z-index: -1;
+  animation: glowBorder 2s infinite;
+}
+
+@keyframes glowBorder {
+  0% {
+    border-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 51, 0.3);
+  }
+  50% {
+    border-color: #000033;
+    box-shadow: 0 0 20px rgba(0, 0, 51, 0.6);
+  }
+  100% {
+    border-color: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 51, 0.3);
+  }
+}
+
+.left2:hover {
+  transform: scale(1.05);
+}
+
+.left2 h {
+  margin-top: 0;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.left2 p {
+  margin: 0.5rem 0;
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+.btx {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: white;
+  color: #000033;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btx:hover {
+  background-color: white;
+  color: #000033;
+  animation: pulse 1s infinite;
+}
+
+@media (max-width: 768px) {
+  .left2 {
+    max-width: 100%;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .left2 h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .left2 p {
+    font-size: 1rem;
+    text-align: justify;
+    margin: 0.3rem 0;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    word-spacing: normal;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+  }
+
+  .btx {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .left2 p {
+    letter-spacing: normal;
+  }
+}
+
+.imgc {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.imgc::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  z-index: -1;
+  transform: rotate(-2deg);
+}
+
+ 
+</Image>
+ 
+"clas"
+ 
+Campus offers bachelor degree programs in
+          industrial engineering, civil engineering, electronics & communication
+          engineering, mechanical engineering, architecture engineering,computer
+          engineering and automob...Read More
+ 
+As an advocate, my mission is to fight for justice and be a reliable
+          companion for my clients. With my experience, I understand the legal
+          system inside out and the challenges people face. I approach every
+          case with compassion, actively listening to my clients' needs. By
+          building strong relationships based on trust, I guide them through
+          their legal journey with unwavering support. I continuously learn and
+          stay updated on legal developments to provide the best possible
+          representation. Together, we navigate the complexities of the law to
+          achieve favorable outcomes. With me by your side, you can confidently
+          overcome legal obstacles, knowing that your rights are fiercely
+          protected.
+ 
+<Link>
+          <button className={styles.btx}>Contact</button>
+        </Link>
+ 
+<Link to="#" smooth={true} duration={500}>
+ 
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+}
+
+.imageWrapper {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.textContainer {
+  flex: 1;
+}
+
+.textContainer p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.textContainer p:last-child {
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+ 
+"btx"
+ 
+"left2"
+ 
+"about2
+ 
+"about-section"
+ 
+const Message_chief = () => {
+  return (
+    <div className={styles.container}>
+      <div className={styles.imageContainer}>
+        <div className={styles.imageWrapper}>
+          <Image src={profilex} alt="Irregular frame" width={200} height={200} />
+        </div>
+      </div>
+      <div className={styles.textContainer}>
+        <p>
+          Thapathali Campus, located at the center of Kathmandu city, was
+          established in 2023 B.S. (1967 AD) to develop middle-level manpower in
+          the field of mechanical and automobile engineering. It is one of the
+          constituent campuses of the Institute of Engineering under Tribhuvan
+          University, which upgraded its programs to bachelor and master's level
+          along the course of time. The campus offers bachelor degree programs
+          in industrial engineering, civil engineering, electronics &
+          communication engineering, mechanical engineering, architecture
+          engineering, computer engineering, and automobile engineering.
+        </p>
+        <p>Read More...</p>
+      </div>
+    </div>
+  );
+};
+
+export default Message_chief;
+
+ 
+import React from "react";
+import Image from "next/image";
+import profilex from "../assets/images/chief1.jpg";
+import styles from "../styles/Message2.module.css";
+
+const Message_chief = () => {
+  return (
+    <div className={styles.container}>
+      <div className={styles.imageContainer}>
+        <div className={styles.imageWrapper}>
+          <Image src={profilex} alt="Irregular frame" width={200} height={200} />
+        </div>
+      </div>
+      <div className={styles.textContainer}>
+        <p>
+          Thapathali Campus, located at the center of Kathmandu city, was
+          established in 2023 B.S. (1967 AD) to develop middle-level manpower in
+          the field of mechanical and automobile engineering. It is one of the
+          constituent campuses of the Institute of Engineering under Tribhuvan
+          University, which upgraded its programs to bachelor and master's level
+          along the course of time. The campus offers bachelor degree programs
+          in industrial engineering, civil engineering, electronics &
+          communication engineering, mechanical engineering, architecture
+          engineering, computer engineering, and automobile engineering.
+        </p>
+        <p>Read More...</p>
+      </div>
+    </div>
+  );
+};
+
+export default Message_chief;
+
+ 
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+}
+
+.imageWrapper {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.textContainer {
+  flex: 1;
+}
+
+.textContainer p {
+  margin-bottom: 10px;
+}
+
+.textContainer p:last-child {
+  font-weight: bold;
+  color: #555;
+}
+
+ 
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+.imageContainer {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.textContainer {
+  flex: 1;
+}
+
+ 
+import React from "react";
+import Image from "next/image";
+import profilex from "../assets/images/chief1.jpg";
+import styles from "../styles/Message2.module.css";
+
+const Message_chief = () => {
+  return (
+    <div className={styles.container}>
+      <div className={styles.imageContainer}>
+        <Image src={profilex} alt="Irregular frame" width={400} />
+      </div>
+      <div className={styles.textContainer}>
+        <p>
+          Thapathali Campus, located at the center of Kathmandu city, was
+          established in 2023 B.S. (1967 AD) to develop middle-level manpower in
+          the field of mechanical and automobile engineering. It is one of the
+          constituent campuses of the Institute of Engineering under Tribhuvan
+          University, which upgraded its programs to bachelor and master's level
+          along the course of time. The campus offers bachelor degree programs
+          in industrial engineering, civil engineering, electronics &
+          communication engineering, mechanical engineering, architecture
+          engineering, computer engineering, and automobile engineering.
+        </p>
+        <p>Read More...</p>
+      </div>
+    </div>
+  );
+};
+
+export default Message_chief;
+
+ 
+
+
+
+
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.aboutsection {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+ 
+</Image>
+ 
+import React from 'react'
+
+ 
+import React from "react";
+import styles from "../styles/Message2.module.css";
+import Image from "next/image";
+import profilex from "../assets/images/chief1.jpg";
+
+const MessageChief = () => {
+  return (
+    <>
+    
+    <div className={styles.aboutsection}>
+  <h1>About Us Page</h1>
+  <p>Some text about who we are and what we do.</p>
+  <p>Resize the browser window to see that this page is responsive by the way.</p>
+</div>
+
+<h2 style={styles.heading}>Our Team</h2>
+<div class={styles.row}>
+  <div class={styles.column}>
+    <div class={styles.card}>
+      <img src={profilex} alt="Jane" width={100} />
+      <div class={styles.container}>
+        <h2>Jane Doe</h2>
+        <p class={styles.title}>CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>jane@example.com</p>
+        <p><button class={styles.button}>Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div className={styles.button}>
+    <div className={styles.card}>
+      <Image src={profilex} alt="Mike" width={100} />
+      <div className={styles.container}>
+        <h2>Mike Ross</h2>
+        <p className={styles.title}>Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mike@example.com</p>
+        <p><button class={styles.button}>Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div className={styles.column}>
+    <div className={styles.card}>
+      <Image src={profilex} alt="John" style={100} />
+      <div className={styles.container}>
+        <h2>John Doe</h2>
+        <p className={styles.button}>Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p><button className={styles.button}>Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+    
+    
+    
+    
+    </>
+  );
+};
+
+export default MessageChief;
+
+ 
+"container"
+ 
+width:100%"
+ 
+"/w3images/team3.jpg"
+ 
+"/w3images/team3.jpg"
+ 
+style="width:100%"
+ 
+/w3images/team2.jpg"
+ 
+, *:before, *:after {
+  box-sizing: inherit;
+}
+ 
+html {
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+ 
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background: var(--primary-color);
+}
+
+.container {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.left img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  max-height: 620px;
+  transition: transform 0.3s ease;
+}
+
+.left img:hover {
+  transform: scale(1.1);
+}
+
+.right > * {
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.right h4 {
+  font-weight: 500;
+  background: var(--color);
+  display: inline-block;
+  padding: 3px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  letter-spacing: 0.05em;
+  word-wrap: break-word;
+}
+
+.right h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  word-wrap: break-word;
+}
+
+.right p {
+  text-align: justify;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  word-wrap: break-word;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  .right h1 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .right p {
+    font-size: 12px;
+    margin-bottom: 1rem;
+  }
+
+  .left img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    object-fit: contain;
+    max-height: 300px;
+  }
+}
+
+
+ 
+"text-align:center
+ 
+"card">
+ 
+"column"
+ 
+"row"
+ 
+"card"
+ 
+"card"
+ 
+"column"
+ 
+"column">
+ 
+"title"
+ 
+"button"
+ 
+"button"
+ 
+"button"
+ 
+"title"
+ 
+"container"
+ 
+"column"
+ 
+"button"
+ 
+"title"
+ 
+"title"
+ 
+"container"
+ 
+"container"
+ 
+"/w3images/team1.jpg"
+ 
+<section className={styles.section}>
+      <div className={styles.container}>
+        <div className={styles.grid}>
+          <div className={styles.left}>
+            <Image src={profilex} alt="" />
+          </div>
+          <div className={styles.right}>
+            <h1>Welcome To Thapathali Campus</h1>
+            <h3>Campus Chief</h3>
+            <p>
+              I invite you to explore our vibrant and inclusive learning
+              environment. With dedicated faculty, cutting-edge facilities, and
+              innovative programs, we strive to empower students for success.
+              Join us in fostering excellence, diversity, and personal growth.
+              Feel free to reach out to us with any questions or inquiries.
+              Thapathali Campus, located at the center of Kathmandu city, was
+              established in 2023 B.S.(1967 AD) to develop middle level manpower
+              in the field mechanical and automobile engineering. It is one of
+              the constituent campus of Institute of Engineering under Tribhuvan
+              University, which upgraded its programs to bachelor and master.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
 <span className={styles.name}>Marnie Lotter</span>
  
 <span className={styles.name}>Marnie Lotter</span>
