@@ -63,7 +63,7 @@ const Footer = () => {
                 
                 <Link href="https://www.facebook.com/profile.php?id=100090608649691" >
                  <div className={styles.facebook}>
-                 Facebook</div> 
+                 Thapathali Campus</div> 
                 </Link>
                 
               </li>
