@@ -19,7 +19,7 @@ const Footer = () => {
                   src={logo}
                   alt="Thapathali Campus Logo"
                   height={80}
-                  quality={100}
+                  quality={100} 
                 />
               </div>
               <div className={logostyles.logo_section_text}>

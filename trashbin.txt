@@ -1,3 +1,5 @@
+{/* ensures highest quality least compression*/}
+ 
 #4c75f2
  
 Facebook
